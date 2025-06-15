@@ -1,3 +1,0 @@
-# HTML-COMPUTING
-HTML CSS COMPUTING PROJECT
-store code and shit
