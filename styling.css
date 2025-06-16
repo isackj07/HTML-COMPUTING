@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9fb;
+    color: #222;
+    padding: 40px;
+    line-height: 1.6; 
+}
+
+h1,h2,h3 {
+    color: #111;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.custom-button {
+    padding: 12px 24px;
+    background-color: #0011ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem; /*font size of root element*/
+    font-weight: 600;
+    cursor: pointer; /* Makes ur mouse into the finger thing*/
+    text-transform: uppercase;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.custom-button:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
